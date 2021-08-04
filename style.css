@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(230, 208, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.draggable, .droptarget {
+    border: 20px solid black;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.one {
+    background-color: coral;
+}
+
+.two {
+    background-color: darkmagenta;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.droptarget {
+    border: 10px dashed black
+}
+
+.hover {
+    border-width: 20px;
+}
